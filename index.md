@@ -9,7 +9,7 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 
 # 👋 Hi, I'm Akash (@codeguyakash)
 
-![Profile](./utils/favicon.png)
+![Profile](./utils/codeguyakash.png)
 
 ### Hey, I'm a MERN Stack Engineer
 
