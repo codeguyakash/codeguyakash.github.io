@@ -1,6 +1,8 @@
 # 📬 Contact Me
 
-- **Name:** Akash (aka _codeguyakash_)
+- **Name:** Akash (codeguyakash)
 - **Email:** [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)
-- **Twitter:** [codeguyakash](https://twitter.com/codeguyakash)
-- **Portfolio:** [codeguyakash.in](https://codeguyakash.in)
+- **Twitter:** [https://twitter.com/codeguyakash](https://twitter.com/codeguyakash)
+- **Portfolio:** [https://codeguyakash.in](https://codeguyakash.in)
+- **Github:** [https://github.com/codeguyakash](https://github.com/codeguyakash)
+- **Linkedin:** [https://www.linkedin.com/in/codeguyakash](https://www.linkedin.com/in/codeguyakash)

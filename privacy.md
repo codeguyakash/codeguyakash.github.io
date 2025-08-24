@@ -2,7 +2,7 @@
 
 _Last updated: August 2025_
 
-This Privacy Policy applies to all Chrome extensions developed and published by **Akash (aka _codeguyakash_)**, including but not limited to **Password Generator Extension**.  
+This Privacy Policy applies to all Chrome extensions developed and published by **Akash (codeguyakash)**, including but not limited to **Password Generator Extension**.  
 We are committed to protecting your privacy and ensuring full transparency about how our extensions work.
 
 ---
@@ -56,5 +56,3 @@ If you have any questions or concerns about this Privacy Policy, please reach ou
 
 📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
-
----

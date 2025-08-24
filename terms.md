@@ -2,7 +2,7 @@
 
 _Last updated: August 2025_
 
-These Terms of Service ("Terms") govern your use of Chrome extensions developed and published by **Akash (aka _codeguyakash_)** (“we”, “our”, or “us”), including both free and paid extensions.  
+These Terms of Service ("Terms") govern your use of Chrome extensions developed and published by **Akash (codeguyakash)** (“we”, “our”, or “us”), including both free and paid extensions.  
 By installing or using our extensions, you agree to these Terms.
 
 ---
@@ -40,7 +40,7 @@ By installing or using our extensions, you agree to these Terms.
 
 ## 📌 Intellectual Property
 
-- All code, branding, and design of the extensions are the intellectual property of **Akash (aka _codeguyakash_)**.
+- All code, branding, and design of the extensions are the intellectual property of **Akash (codeguyakash)**.
 - You may not copy, resell, or distribute our extensions without permission.
 
 ---
@@ -65,5 +65,3 @@ If you have any questions about these Terms, please reach out at:
 
 📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
-
----

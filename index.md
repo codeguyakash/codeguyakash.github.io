@@ -7,11 +7,11 @@ robots: 'index, follow'
 image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 ---
 
-# 👋 Hi, I'm Akash (@codeguyakash)
-
 ![Profile](./utils/codeguyakash.png)
 
-### Hey, I'm a MERN Stack Engineer
+# 👋 Hi, I'm Akash (@codeguyakash)
+
+### Hey, I'm a Full Stack Engineer
 
 I have been a full-stack web developer since 2020, and I love React.  
 I didn't even know what React was when I landed my first job, but once I discovered it, I immediately fell in love.  
@@ -30,11 +30,6 @@ Now, my passion is sharing that knowledge with others. I learned programming bot
 
 ### 🌐 Follow Me
 
-- [GitHub](https://github.com/codeguyakash)
-- [Twitter](https://twitter.com/codeguyakash)
-- [LinkedIn](https://www.linkedin.com/in/codeguyakash/)
-- [Mail](mailto:akash@codeguyakash.me)
-
----
+[GitHub](https://github.com/codeguyakash) | [Twitter](https://twitter.com/codeguyakash) | [LinkedIn](https://www.linkedin.com/in/codeguyakash/) | [Mail](mailto:codeguyakash@gmail.com)
 
 ![Signature](./utils/signature.png)
