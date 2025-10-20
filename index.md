@@ -35,7 +35,10 @@ Now, my passion is sharing that knowledge with others. I learned programming bot
 
 - [Terms of Service](/terms)
 - [Privacy Policy](/privacy)
+- [Refund Policy](/refund_policy)
+- [Shipping Policy](/shipping_policy)
 - [Contact Us](/contact)
+
 
 ---
 
