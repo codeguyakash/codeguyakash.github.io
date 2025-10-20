@@ -17,6 +17,14 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
     font-family: "Noto Sans Mono", monospace;
   }
 </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D78BHGXY0Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D78BHGXY0Q');
+</script>
 
 ![Profile](./utils/codeguyakash.png)
 
