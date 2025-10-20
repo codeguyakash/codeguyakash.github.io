@@ -11,7 +11,7 @@
 
 # 🔒 Privacy Policy
 
-*Last updated: August 2025*
+_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Privacy Policy applies to **all Chrome extensions developed and
 published by Akash (codeguyakash)**.\

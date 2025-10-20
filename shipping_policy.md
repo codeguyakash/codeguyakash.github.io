@@ -11,7 +11,7 @@
 
 # 📦 Shipping and Delivery Policy
 
-_Last updated: August 2025_
+_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Shipping and Delivery Policy applies to **all Chrome extensions developed and published by Akash (codeguyakash)**.
 

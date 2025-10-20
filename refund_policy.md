@@ -11,7 +11,7 @@
 
 # 💰 Cancellation and Refund Policy
 
-_Last updated: August 2025_
+_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Cancellation and Refund Policy applies to **all Chrome extensions developed and published by Akash (codeguyakash)**.
 
