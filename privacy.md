@@ -1,3 +1,14 @@
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+  * {
+    font-family: "Noto Sans Mono", monospace;
+  }
+</style>
+
 # 🔒 Privacy Policy
 
 _Last updated: August 2025_
