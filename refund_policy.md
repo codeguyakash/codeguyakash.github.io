@@ -11,7 +11,6 @@
 
 # 💰 Cancellation and Refund Policy
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Cancellation and Refund Policy applies to **all Chrome extensions developed and published by Akash (codeguyakash)**.
 
@@ -69,5 +68,7 @@ The latest version will always be available on our official website and the Chro
 
 If you have any questions or concerns regarding this Cancellation and Refund Policy, please contact:
 
-📧 **codeguyakash@gmail.com**  
-🌐 **[codeguyakash.in](https://codeguyakash.in)**
+📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
+🌐 [codeguyakash.in](https://codeguyakash.in)
+
+_Last updated: {{ site.time | date: "%B %Y" }}_

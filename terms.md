@@ -11,7 +11,6 @@
 
 # 📜 Terms of Service
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
 
 These Terms of Service ("Terms") govern your use of Chrome extensions developed and published by **Akash (codeguyakash)** (“we”, “our”, or “us”), including both free and paid extensions.  
 By installing or using our extensions, you agree to these Terms.
@@ -76,3 +75,5 @@ If you have any questions about these Terms, please reach out at:
 
 📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
+
+_Last updated: {{ site.time | date: "%B %Y" }}_

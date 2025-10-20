@@ -11,7 +11,6 @@
 
 # 📦 Shipping and Delivery Policy
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Shipping and Delivery Policy applies to **all Chrome extensions developed and published by Akash (codeguyakash)**.
 
@@ -42,5 +41,7 @@ We ensure prompt help to restore access.
 
 If you have any questions regarding this Shipping and Delivery Policy, please contact:
 
-📧 **codeguyakash@gmail.com**  
+📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
+
+_Last updated: {{ site.time | date: "%B %Y" }}_

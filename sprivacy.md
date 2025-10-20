@@ -11,7 +11,6 @@
 
 # 🔒 Privacy Policy
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
 
 This Privacy Policy applies to **all Chrome extensions developed and
 published by Akash (codeguyakash)**.\
@@ -85,5 +84,7 @@ listing and on our official website.
 If you have any questions or concerns regarding this Privacy Policy,
 please contact:
 
-📧 <codeguyakash@gmail.com>\
+📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
+
+_Last updated: {{ site.time | date: "%B %Y" }}_
