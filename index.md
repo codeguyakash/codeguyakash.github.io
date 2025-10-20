@@ -32,7 +32,7 @@ I started my journey in web development from scratch and grew into full-stack en
 
 ---
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
+
 ## 🧩 Chrome Extension
 
 ### [My Dark Theme](https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh)
@@ -67,3 +67,4 @@ For support or refund queries, please refer to the links below.
 
 ![Akash's Signature](./utils/signature.png)
 
+_Last updated: {{ site.time | date: "%B %Y" }}_
