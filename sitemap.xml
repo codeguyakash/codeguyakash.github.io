@@ -4,13 +4,30 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://codeguyakash.github.io/</loc>
-  <lastmod>2024-02-08T19:25:36+00:00</lastmod>
+  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
 </url>
 
+<url>
+  <loc>https://codeguyakash.github.io/terms</loc>
+  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
+</url>
+
+<url>
+  <loc>https://codeguyakash.github.io/privacy</loc>
+  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
+</url>
+
+<url>
+  <loc>https://codeguyakash.github.io/refund_policy</loc>
+  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
+</url>
+
+<url>
+  <loc>https://codeguyakash.github.io/contact</loc>
+  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
+</url>
 
 </urlset>
