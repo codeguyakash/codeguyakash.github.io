@@ -41,7 +41,7 @@ If your case qualifies under one of the above exceptions, please contact us with
 To request a refund (only under eligible cases), please contact us at:
 
 📧 **codeguyakash@gmail.com**  
-🌐 [codeguyakash.in](https://codeguyakash.in)
+🌐 **[codeguyakash.in](https://codeguyakash.in)**
 
 Include the following details:
 - Transaction ID or proof of purchase.  
@@ -70,4 +70,4 @@ The latest version will always be available on our official website and the Chro
 If you have any questions or concerns regarding this Cancellation and Refund Policy, please contact:
 
 📧 **codeguyakash@gmail.com**  
-🌐 [codeguyakash.in](https://codeguyakash.in)
+🌐 **[codeguyakash.in](https://codeguyakash.in)**

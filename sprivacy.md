@@ -1,3 +1,14 @@
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+  * {
+    font-family: "Noto Sans Mono", monospace;
+  }
+</style>
+
 # 🔒 Privacy Policy
 
 *Last updated: August 2025*
@@ -33,9 +44,9 @@ transparency about how our extensions work.
 ## 📌 Permissions
 
 -   Extensions may request limited permissions (such as `scripting`,
-    `storage`, or host access) strictly to enable functionality.\
+    `storage`, or host access) strictly to enable functionality.
 -   Permissions are **never misused** to access or transmit private
-    data.\
+    data.
 -   Any permission request is clearly explained in the Chrome Web Store
     listing.
 
@@ -44,7 +55,7 @@ transparency about how our extensions work.
 ## 📌 Third Parties
 
 -   We do not share data with advertisers, analytics providers, or any
-    third-party services.\
+    third-party services.
 -   Extensions are fully self-contained and do not include hidden
     trackers or analytics.
 
@@ -53,8 +64,8 @@ transparency about how our extensions work.
 ## 📌 Security
 
 -   Any generated or processed data (e.g., passwords, temporary user
-    inputs, or local storage) remains on your device.\
--   Data is cleared when you close, reset, or uninstall the extension.\
+    inputs, or local storage) remains on your device.
+-   Data is cleared when you close, reset, or uninstall the extension.
 -   For secure password storage, we recommend using a trusted password
     manager (our extensions are not designed for long-term storage).
 
