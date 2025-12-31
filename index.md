@@ -12,9 +12,13 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+
+
 <style>
   * {
-    font-family: "Noto Sans Mono", monospace;
+    /* font-family: "Noto Sans Mono", monospace; */
+        font-family: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI,          Roboto Helvetica, Arial, sans-serif;
   }
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4355032471089861"
