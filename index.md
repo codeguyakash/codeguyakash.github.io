@@ -36,7 +36,8 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
   gtag('config', 'G-D78BHGXY0Q');
 </script>
 
-![Profile](./utils/hero.png)
+<!-- ![Profile](./utils/hero.png) -->
+<img src="utils/hero.png" alt="codeguyakash" class="img" width="300" height="300" />
 
 # 👋 Hi, I'm Akash (@codeguyakash)
 
