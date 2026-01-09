@@ -43,7 +43,7 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 
 ### Hey, I'm a Full Stack Engineer
 
-I have been a full-stack web developer since 2020, and I love React.  
+I have been a frontend web developer since 2020, and I love React.  
 I didn't even know what React was when I landed my first job, but once I discovered it, I immediately fell in love.  
 Through many hours of studying and practice, I was eventually able to learn enough React to comfortably build any project I could think of.  
 Now, my passion is sharing that knowledge with others. I learned programming both on my own and in college.
