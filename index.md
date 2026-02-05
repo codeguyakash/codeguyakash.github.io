@@ -37,7 +37,7 @@ image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 </script>
 
 <!-- ![Profile](./utils/hero.png) -->
-<img src="utils/hero.png" alt="codeguyakash" class="img" width="150" height="150" />
+<img src="https://avatars.githubusercontent.com/u/80571893" alt="codeguyakash" class="img" width="150" height="150" />
 
 # 👋 Hi, I'm Akash (@codeguyakash)
 
@@ -57,7 +57,13 @@ Now, my passion is sharing that knowledge with others. I learned programming bot
 Bring elegance and comfort to your browsing experience with **My Dark Theme** — a clean, minimal, and eye-friendly dark theme for Chrome users.
 Perfect for those who work late or love aesthetic dark interfaces.
 
-<a href="https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh" class="btn" target="_blank">👉 Install from Chrome Web Store</a>
+<a href="https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh" class="btn" target="_blank">👉 Add to Browser</a>
+
+### [Secure Pass](https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi)
+
+Generate strong passwords or memorable passphrases. Features right-click autofill and saves your last generated secret. **Secure Pass** is the simplest way to generate robust credentials and keep your accounts safe. Stop using weak passwords or struggling to come up with new ones.
+
+<a href="https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi" class="btn" target="_blank">👉 Add to Browser</a>
 
 ---
 
