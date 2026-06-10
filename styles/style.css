@@ -102,15 +102,25 @@ a:visited {
   flex-direction: column;
 }
 
+.about-me > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-me > h2,
+.about-me > h3 {
+  margin-top: 0.8rem;
+}
+
 .flex {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-bottom: 5rem;
 }
 
 .social {
   gap: 10px;
+  margin-bottom: 2.5rem;
 }
 
 .footer-links>ul {
@@ -185,7 +195,7 @@ hr {
   border: 0;
   height: 1px;
   background-color: #e5e7eb;
-  margin: 2.2rem 0;
+  margin: 1.2rem 0;
 }
 
 /* Markdown lists styles */
