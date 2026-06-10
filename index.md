@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 'Akash (codeguyakash)'
 description: 'Full-Stack Developer with ReactJs | Experienced Seeking Full-Time Opportunity | Learning MERN Stack | Delhi, India'
 keywords: 'HTML, CSS, JavaScript, React, MongoDB, Node, Express, Akash, Angular, GitHub, Tailwind CSS, codeguyakash, nextjs, vite, docker'
@@ -7,37 +8,11 @@ robots: 'index, follow'
 image: 'https://avatars.githubusercontent.com/u/80571893?v=4'
 ---
 
+<div class="about-me" markdown="1">
 
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
-
-<style>
-  * {
-   font-family: "Inter", sans-serif;
-  }
-</style>
-
-<!-- Google Fonts -->
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4355032471089861"
-     crossorigin="anonymous"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D78BHGXY0Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D78BHGXY0Q');
-</script>
-
-<!-- ![Profile](./utils/hero.png) -->
-<img src="https://avatars.githubusercontent.com/u/80571893" alt="codeguyakash" class="img" width="150" height="150" />
+<div class="image-div">
+  <img src="https://avatars.githubusercontent.com/u/80571893" alt="codeguyakash" class="img" />
+</div>
 
 # 👋 Hi, I'm Akash (@codeguyakash)
 
@@ -54,8 +29,7 @@ Now, my passion is sharing that knowledge with others. I learned programming bot
 
 ### [My Dark Theme](https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh)
 
-Bring elegance and comfort to your browsing experience with **My Dark Theme** — a clean, minimal, and eye-friendly dark theme for Chrome users.
-Perfect for those who work late or love aesthetic dark interfaces.
+Bring elegance and comfort to your browsing experience with **My Dark Theme** — a clean, minimal, and eye-friendly dark theme for Chrome users. Perfect for those who work late or love aesthetic dark interfaces.
 
 <a href="https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh" class="btn" target="_blank">👉 Add to Browser</a>
 
@@ -75,6 +49,8 @@ For support or refund queries, please refer to the links below.
 
 ---
 
+<div class="footer-links" markdown="1">
+
 ### 📌 Links
 
 - [Terms of Service](/terms)
@@ -82,13 +58,45 @@ For support or refund queries, please refer to the links below.
 - [Refund Policy](/refund_policy)
 - [Contact Us](/contact)
 
+</div>
 
----
+</div>
 
-### 🌐 Follow Me
+<div class="social flex">
+  <div>
+    <div class="follow">Follow me</div>
+  </div>
+  <div>
+    <a href="https://github.com/codeguyakash" target="_blank">
+      <i class="fa-brands fa-github"></i>
+      <span>@Github</span>
+    </a>
+  </div>
+  <div>
+    <a href="https://twitter.com/codeguyakash" target="_blank">
+      <i class="fa-brands fa-twitter"></i>
+      <span>@Twitter</span>
+    </a>
+  </div>
+  <div>
+    <a href="https://www.linkedin.com/in/codeguyakash/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>@Linkedin</span>
+    </a>
+  </div>
+  <div>
+    <a href="mailto:codeguyakash@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+      <span> @Mail </span>
+    </a>
+  </div>
+</div>
 
-[GitHub](https://github.com/codeguyakash) | [Twitter](https://twitter.com/codeguyakash) | [LinkedIn](https://www.linkedin.com/in/codeguyakash/) | [Mail](mailto:codeguyakash@gmail.com)
-
-![Signature](./utils/signature.png)
-
-_Last updated: {{ site.time | date: "%B %Y" }}_
+<footer>
+  <div>
+    <img src="/utils/signature.png" alt="Signature" style="width: 250px;" />
+  </div>
+  <div style="margin-top: 1rem; color: var(--sec-text-color); font-size: 0.9rem; font-weight: 300;">
+    Last updated: {{ site.time | date: "%B %Y" }}
+  </div>
+</footer>
