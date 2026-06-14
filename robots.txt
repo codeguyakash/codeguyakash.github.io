@@ -94,4 +94,4 @@ Allow: /
 
 # ── Sitemap & LLMs ───────────────────────────────────────────
 Sitemap: https://codeguyakash.github.io/sitemap.xml
-LLMs-txt: https://codeguyakash.github.io/llms.txt
+# LLMs-txt: https://codeguyakash.github.io/llms.txt
