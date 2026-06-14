@@ -339,6 +339,16 @@ hr {
   margin-bottom: 0.4rem;
 }
 
+.product-publisher {
+  font-size: 0.76rem;
+  color: var(--color-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -0.15rem;
+  margin-bottom: 0.65rem;
+  letter-spacing: 0.05em;
+}
+
 .product-badge {
   display: inline-block;
   background: #e8f0fe;

@@ -82,7 +82,7 @@ This page lists Android apps built by Akash that are published on the Google Pla
 URL: https://codeguyakash.github.io/terms.html
 
 These Terms of Service govern the use of Chrome extensions developed and
-published by Akash (codeguyakash). By installing or using the extensions, you
+published by CODEGUYAKASH. By installing or using the extensions, you
 agree to these terms.
 
 ### Use of Extensions
@@ -153,7 +153,7 @@ Last updated: June 2026
 URL: https://codeguyakash.github.io/refund_policy.html
 
 This policy applies to all Chrome extensions developed and published by
-Akash (codeguyakash).
+CODEGUYAKASH.
 
 ### Nature of Products
 All products are digital Chrome extensions. Once installed or downloaded,
