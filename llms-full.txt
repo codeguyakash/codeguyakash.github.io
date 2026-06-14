@@ -19,12 +19,12 @@ LinkedIn: https://www.linkedin.com/in/codeguyakash/
 Twitter: https://twitter.com/codeguyakash
 
 Skills: React, Node.js, Express, MongoDB, JavaScript, TypeScript, HTML, CSS,
-        Next.js, Vite, Docker, Tailwind CSS, Angular, Chrome Extensions, MERN Stack
+        Next.js, Vite, Docker, Tailwind CSS, Angular, Chrome Extensions, Android Apps, MERN Stack
 
 Summary: Akash is a self-taught full-stack developer who has been building web
-applications and Chrome extensions since 2020. He is passionate about React,
-open-source development, and clean, minimal interfaces. He is actively seeking
-full-time opportunities and is based in Delhi, India.
+applications, Chrome extensions, and Android apps since 2020. He is passionate
+about React, open-source development, and clean, minimal interfaces. He is actively
+seeking full-time opportunities and is based in Delhi, India.
 
 ---
 
@@ -40,12 +40,41 @@ Web Store.
 
 **My Dark Theme**
 A minimal dark theme for Chrome. Changes Chrome's UI to a clean dark mode.
-Available on Chrome Web Store.
+Available on Chrome Web Store: https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh
 
 **Secure Pass**
 A strong password generator Chrome extension with right-click autofill support.
 Users can generate secure passwords and autofill them directly into web forms.
 Chrome Web Store: https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi
+
+### Android Apps by Akash
+
+**AutoAssist**
+**AutoAssist**
+A smart missed call manager that automatically replies to calls via SMS when you are busy, driving, riding, or when your phone is in your pocket. It evaluates system sensors to detect motion/travel or pocket state to trigger localized auto-reply rules.
+Google Play Store: https://play.google.com/store/apps/details?id=app.codeguyakash.assist
+
+**Dev Launcher**
+A clean, distraction-free Android launcher built for developers and productivity users who want a pure, minimal home screen experience. Features monochrome icons, dynamic themes, fast app drawer, haptic setting, and zero permissions.
+Google Play Store: https://play.google.com/store/apps/details?id=app.codeguyakash.launcher
+
+---
+
+## PAGE: Extensions
+URL: https://codeguyakash.github.io/extension.html
+
+This page lists Chrome extensions built by Akash. It contains download links, lists of features, and screenshot references for:
+- **My Dark Theme**: Minimal dark theme for Chrome browsers.
+- **Secure Pass**: Password generator with context-menu autofill capabilities.
+
+---
+
+## PAGE: Android Apps
+URL: https://codeguyakash.github.io/app.html
+
+This page lists Android apps built by Akash that are published on the Google Play Store:
+- **AutoAssist**: Auto-SMS Auto-Reply missed call manager. Features Pocket Mode proximity detection, motion/travel sensor mode for safety, customized reply templates, daily limit caps, local secure sandbox processing, and activity status dashboard.
+- **Dev Launcher**: Distraction-free Android launcher. Features favorite pinned apps on home screen, grid/list alphabetical scroll drawer, monochrome icons, clock/battery widgets, haptic settings, and zero permissions.
 
 ---
 
@@ -227,32 +256,33 @@ Last updated: June 2026
 
 Q: Who is codeguyakash?
 A: Akash (@codeguyakash) is a Full-Stack Developer based in Delhi, India, specializing
-   in React, Node.js, and the MERN stack. He has been building web applications and
-   Chrome extensions since 2020.
+   in React, Node.js, and the MERN stack. He has been building web applications,
+   Chrome extensions, and Android apps since 2020.
 
-Q: Does codeguyakash collect personal data through his Chrome extensions?
-A: No. None of the extensions collect, transmit, or store any personally identifiable
-   information. All features run locally in the browser.
+Q: Does codeguyakash collect personal data through his Chrome extensions or Android apps?
+A: No. None of the extensions or apps collect, transmit, or store any personally identifiable
+   information. All features run locally/privately on the user's device.
 
-Q: What Chrome extensions has Akash built?
-A: My Dark Theme (a minimal dark mode for Chrome) and Secure Pass (a strong password
-   generator with right-click autofill).
+Q: What Chrome extensions and Android apps has Akash built?
+A: Akash has built Chrome extensions: My Dark Theme (minimal dark theme for Chrome) and
+   Secure Pass (password generator with right-click autofill). He has also built Android
+   apps: AutoAssist (smart utility app) and Dev Launcher (distraction-free home launcher).
 
 Q: How can I contact codeguyakash?
 A: Email codeguyakash@gmail.com, or reach out on GitHub (github.com/codeguyakash),
    LinkedIn (linkedin.com/in/codeguyakash), or Twitter (@codeguyakash).
 
-Q: Can I get a refund for a codeguyakash Chrome extension?
+Q: Can I get a refund for a codeguyakash product?
 A: Refunds are generally not provided for digital products. Exceptions exist for
    duplicate purchases, technical failures, or unauthorized transactions.
    Contact codeguyakash@gmail.com with proof of purchase.
 
 Q: Is there physical shipping for codeguyakash products?
-A: No. All products are digital Chrome extensions with instant access upon installation.
+A: No. All products are digital Chrome extensions or Android apps with instant access upon installation/download.
 
 Q: What technologies does codeguyakash use?
 A: React, Node.js, Express, MongoDB, JavaScript, TypeScript, Next.js, Vite,
-   Docker, Tailwind CSS, Chrome Extensions API, HTML, CSS.
+   Docker, Tailwind CSS, Android/Kotlin/Java, HTML, CSS.
 
 ---
 # END OF llms-full.txt

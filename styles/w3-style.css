@@ -318,9 +318,49 @@ hr {
   color: var(--color-accent);
 }
 
+.product-card h2 {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+
+.product-card ul {
+  font-size: 0.84rem;
+  margin: 0.5rem 0 0.75rem 1.25rem;
+  color: var(--color-muted);
+}
+
 .product-card p {
   font-size: 0.85rem;
   margin-bottom: 0.75rem;
+}
+
+.product-card-header {
+  margin-bottom: 0.4rem;
+}
+
+.product-badge {
+  display: inline-block;
+  background: #e8f0fe;
+  color: var(--color-accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 100px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.product-badge-android {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.product-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
 }
 
 /* ── Button ───────────────────────────────────────────────── */
@@ -338,6 +378,16 @@ hr {
 
 .btn:hover {
   background-color: var(--color-accent-dark);
+}
+
+.btn-outline {
+  background-color: transparent !important;
+  color: var(--color-accent) !important;
+  border: 1px solid var(--color-accent);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-surface) !important;
 }
 
 /* ── Notice Box ───────────────────────────────────────────── */
