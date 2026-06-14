@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>https://codeguyakash.github.io/</loc>
-  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
-</url>
+  <url>
+    <loc>https://codeguyakash.github.io/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://codeguyakash.github.io/terms</loc>
-  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
-</url>
+  <url>
+    <loc>https://codeguyakash.github.io/terms.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-<url>
-  <loc>https://codeguyakash.github.io/privacy</loc>
-  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
-</url>
+  <url>
+    <loc>https://codeguyakash.github.io/privacy.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-<url>
-  <loc>https://codeguyakash.github.io/refund_policy</loc>
-  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
-</url>
+  <url>
+    <loc>https://codeguyakash.github.io/refund_policy.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
-<url>
-  <loc>https://codeguyakash.github.io/contact</loc>
-  <lastmod>2025-10-21T02:05:00+05:30</lastmod>
-</url>
+  <url>
+    <loc>https://codeguyakash.github.io/shipping_policy.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://codeguyakash.github.io/contact.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://codeguyakash.github.io/sprivacy.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
 </urlset>
