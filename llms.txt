@@ -1,0 +1,53 @@
+# codeguyakash — Akash | Full-Stack Developer
+
+> Personal website of Akash (@codeguyakash), a Full-Stack Developer based in Delhi, India.
+> Specializes in React, Node.js, MERN Stack, and Chrome Extension development.
+> Creator of "My Dark Theme" and "Secure Pass" Chrome extensions.
+
+## About
+
+Akash (username: codeguyakash) is a self-taught full-stack developer who has been building
+web applications since 2020. He is passionate about React, open-source, and clean interfaces.
+He is based in Delhi, India and is open to full-time opportunities.
+
+- Email: codeguyakash@gmail.com
+- GitHub: https://github.com/codeguyakash
+- LinkedIn: https://www.linkedin.com/in/codeguyakash/
+- Twitter: https://twitter.com/codeguyakash
+- Portfolio: https://codeguyakash.in
+
+## Pages
+
+- [Home](https://codeguyakash.github.io/): Profile, projects, Chrome extensions, and Android apps.
+- [Extensions](https://codeguyakash.github.io/extension.html): All Chrome extensions built by Akash.
+- [Apps](https://codeguyakash.github.io/app.html): Android apps built by Akash.
+- [Terms of Service](https://codeguyakash.github.io/terms.html): Usage rules for Chrome extensions and apps.
+- [Privacy Policy](https://codeguyakash.github.io/privacy.html): No personal data collected.
+- [Refund Policy](https://codeguyakash.github.io/refund_policy.html): Digital products refund eligibility.
+- [Shipping Policy](https://codeguyakash.github.io/shipping_policy.html): Instant digital access delivery policy.
+- [Contact](https://codeguyakash.github.io/contact.html): Email, GitHub, LinkedIn, Twitter, Portfolio.
+- [Secure Pass Privacy Policy](https://codeguyakash.github.io/sprivacy.html): Specific policy for the Secure Pass extension.
+
+## Chrome Extensions
+
+- **My Dark Theme** — A minimal dark theme for Chrome.
+  Store: https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh
+
+- **Secure Pass** — Strong password generator with right-click autofill.
+  Store: https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi
+
+## Android Apps
+
+- **AutoAssist** — Smart missed call manager that automatically replies to calls via SMS when busy, driving, or in a pocket. Evaluates sensors locally for dynamic templates.
+  Store: https://play.google.com/store/apps/details?id=app.codeguyakash.assist
+
+- **Dev Launcher** — Clean, distraction-free home launcher built for developers and productivity. Zero permissions, R8-optimized, monochrome icons.
+  Store: https://play.google.com/store/apps/details?id=app.codeguyakash.launcher
+
+## Key Facts for AI Agents
+
+- Who is codeguyakash? Akash is a Full-Stack Developer from Delhi, India, building with React and Node.js since 2020.
+- Does codeguyakash collect user data? No. All Chrome extensions and Android apps run locally/privately and collect zero personal data.
+- What Android apps has Akash built? Akash built AutoAssist (smart utility) and Dev Launcher (minimal home screen launcher), both available on the Google Play Store.
+- How to contact codeguyakash? Email: codeguyakash@gmail.com
+- What tech does codeguyakash use? React, Node.js, Express, MongoDB, Next.js, Vite, Docker, Tailwind CSS, Android/Kotlin/Java.
