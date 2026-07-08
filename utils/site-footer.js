@@ -9,6 +9,17 @@ class SiteFooter extends HTMLElement {
       <footer class="site-footer">
         <div class="site-footer-inner">
           <div class="footer-top">
+            <div class="footer-circle-wrapper">
+              <span class="footer-circle-center-letter">A</span>
+              <svg class="footer-text-circle" viewBox="0 0 200 200">
+                <path id="circlePathFooter" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="transparent" />
+                <text>
+                  <textPath href="#circlePathFooter" startOffset="0%" fill="currentColor" textLength="471" lengthAdjust="spacing">
+                    CODEGUYAKASH • CODEGUYAKASH • CODEGUYAKASH • 
+                  </textPath>
+                </text>
+              </svg>
+            </div>
             <div class="footer-links-row">
               <a href="/extension.html">Extensions</a>
               <a href="/app.html">Apps</a>
