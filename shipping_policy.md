@@ -34,7 +34,7 @@ We ensure prompt help to restore access.
 
 If you have any questions regarding this Shipping and Delivery Policy, please contact:
 
-📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
+📧 [to@codeguyakash.in](mailto:to@codeguyakash.in)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

@@ -66,7 +66,7 @@ By installing or using our extensions, you agree to these Terms.
 
 If you have any questions about these Terms, please reach out at:
 
-📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
+📧 [to@codeguyakash.in](mailto:to@codeguyakash.in)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

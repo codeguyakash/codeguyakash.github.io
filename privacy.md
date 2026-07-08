@@ -62,7 +62,7 @@ The latest version will always be available on the Chrome Web Store listing and 
 
 If you have any questions or concerns regarding this Privacy Policy, please contact:
 
-📧 [codeguyakash@gmail.com](mailto:codeguyakash@gmail.com)  
+📧 [to@codeguyakash.in](mailto:to@codeguyakash.in)  
 🌐 [codeguyakash.in](https://codeguyakash.in)
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

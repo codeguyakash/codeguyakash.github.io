@@ -11,7 +11,7 @@ Name: Akash
 Username / Handle: codeguyakash
 Role: Full-Stack Developer
 Location: Delhi, India
-Email: codeguyakash@gmail.com
+Email: to@codeguyakash.in
 Website: https://codeguyakash.github.io/
 Portfolio: https://codeguyakash.in
 GitHub: https://github.com/codeguyakash
@@ -114,7 +114,7 @@ agree to these terms.
 ### Changes
 - Terms may be updated. Updated Terms will be available on this page and the Chrome Web Store listing.
 
-Contact: codeguyakash@gmail.com | https://codeguyakash.in
+Contact: to@codeguyakash.in | https://codeguyakash.in
 Last updated: June 2026
 
 ---
@@ -144,7 +144,7 @@ ensuring full transparency.
 - Any generated or processed data (e.g., passwords, temporary inputs) remains on your device.
 - Data is cleared when you close, reset, or uninstall the extension.
 
-Contact: codeguyakash@gmail.com | https://codeguyakash.in
+Contact: to@codeguyakash.in | https://codeguyakash.in
 Last updated: June 2026
 
 ---
@@ -166,7 +166,7 @@ Refunds are generally not provided after purchase. Exceptions:
 - Unauthorized transaction or billing error verified by payment processor.
 
 ### Requesting a Refund
-Contact codeguyakash@gmail.com with:
+Contact to@codeguyakash.in with:
 - Transaction ID or proof of purchase
 - Name of the extension
 - Description of the issue
@@ -178,7 +178,7 @@ request does not guarantee approval.
 This policy may be updated to align with new payment regulations.
 The latest version will always be available on this site and the Chrome Web Store.
 
-Contact: codeguyakash@gmail.com | https://codeguyakash.in
+Contact: to@codeguyakash.in | https://codeguyakash.in
 Last updated: June 2026
 
 ---
@@ -200,7 +200,7 @@ immediately available within their Chrome browser. No manual activation needed.
 In rare cases where installation fails due to technical issues, users can
 contact the support team for assistance.
 
-Contact: codeguyakash@gmail.com | https://codeguyakash.in
+Contact: to@codeguyakash.in | https://codeguyakash.in
 Last updated: June 2026
 
 ---
@@ -212,7 +212,7 @@ Have a question, collaboration idea, or support request? Reach out through
 any of the following channels:
 
 - Name: Akash (codeguyakash)
-- Email: codeguyakash@gmail.com
+- Email: to@codeguyakash.in
 - Twitter: https://twitter.com/codeguyakash
 - Portfolio: https://codeguyakash.in
 - GitHub: https://github.com/codeguyakash
@@ -247,7 +247,7 @@ with particular reference to the Secure Pass extension.
 ### Secure Pass on Chrome Web Store
 https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi
 
-Contact: codeguyakash@gmail.com | https://codeguyakash.in
+Contact: to@codeguyakash.in | https://codeguyakash.in
 Last updated: June 2026
 
 ---
@@ -269,13 +269,13 @@ A: Akash has built Chrome extensions: My Dark Theme (minimal dark theme for Chro
    apps: AutoAssist (smart utility app) and Dev Launcher (distraction-free home launcher).
 
 Q: How can I contact codeguyakash?
-A: Email codeguyakash@gmail.com, or reach out on GitHub (github.com/codeguyakash),
+A: Email to@codeguyakash.in, or reach out on GitHub (github.com/codeguyakash),
    LinkedIn (linkedin.com/in/codeguyakash), or Twitter (@codeguyakash).
 
 Q: Can I get a refund for a codeguyakash product?
 A: Refunds are generally not provided for digital products. Exceptions exist for
    duplicate purchases, technical failures, or unauthorized transactions.
-   Contact codeguyakash@gmail.com with proof of purchase.
+   Contact to@codeguyakash.in with proof of purchase.
 
 Q: Is there physical shipping for codeguyakash products?
 A: No. All products are digital Chrome extensions or Android apps with instant access upon installation/download.

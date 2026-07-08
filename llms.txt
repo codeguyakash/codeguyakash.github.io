@@ -10,7 +10,7 @@ Akash (username: codeguyakash) is a self-taught full-stack developer who has bee
 web applications since 2020. He is passionate about React, open-source, and clean interfaces.
 He is based in Delhi, India and is open to full-time opportunities.
 
-- Email: codeguyakash@gmail.com
+- Email: to@codeguyakash.in
 - GitHub: https://github.com/codeguyakash
 - LinkedIn: https://www.linkedin.com/in/codeguyakash/
 - Twitter: https://twitter.com/codeguyakash
@@ -49,5 +49,5 @@ He is based in Delhi, India and is open to full-time opportunities.
 - Who is codeguyakash? Akash is a Full-Stack Developer from Delhi, India, building with React and Node.js since 2020.
 - Does codeguyakash collect user data? No. All Chrome extensions and Android apps run locally/privately and collect zero personal data.
 - What Android apps has Akash built? Akash built AutoAssist (smart utility) and Dev Launcher (minimal home screen launcher), both available on the Google Play Store.
-- How to contact codeguyakash? Email: codeguyakash@gmail.com
+- How to contact codeguyakash? Email: to@codeguyakash.in
 - What tech does codeguyakash use? React, Node.js, Express, MongoDB, Next.js, Vite, Docker, Tailwind CSS, Android/Kotlin/Java.

@@ -85,7 +85,7 @@ For support or refund queries, please refer to the links below.
     </a>
   </div>
   <div>
-    <a href="mailto:codeguyakash@gmail.com">
+    <a href="mailto:to@codeguyakash.in">
       <i class="fa-solid fa-envelope"></i>
       <span> @Mail </span>
     </a>
