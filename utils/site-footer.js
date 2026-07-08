@@ -18,6 +18,9 @@ class SiteFooter extends HTMLElement {
               <a href="/shipping_policy.html">Shipping</a>
               <a href="/contact.html">Contact</a>
             </div>
+          </div>
+          
+          <div class="footer-bottom">
             <div class="footer-social-row">
               <a href="https://github.com/codeguyakash" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
               <a href="https://twitter.com/codeguyakash" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
@@ -25,9 +28,6 @@ class SiteFooter extends HTMLElement {
               <a href="mailto:to@codeguyakash.in" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
               <a href="https://codeguyakash.in" target="_blank" rel="noopener" aria-label="Portfolio"><i class="fa-solid fa-globe"></i></a>
             </div>
-          </div>
-          
-          <div class="footer-bottom">
             <div class="footer-branding">CODEGUYAKASH</div>
             <div class="footer-copyright">
               <span>&copy; ${new Date().getFullYear()} CODEGUYAKASH. All rights reserved.</span>
