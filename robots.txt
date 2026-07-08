@@ -1,5 +1,4 @@
 # robots.txt — codeguyakash.github.io
-# Last updated: June 2026
 
 # ── Standard Search Engines ──────────────────────────────────
 User-agent: *

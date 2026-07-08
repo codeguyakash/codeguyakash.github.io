@@ -1,6 +1,5 @@
 # codeguyakash — Akash | Full-Stack Developer
 # llms-full.txt — Complete content for LLM/AI indexing
-# Last updated: June 2026
 # Source: https://codeguyakash.github.io/
 
 ---
@@ -115,7 +114,6 @@ agree to these terms.
 - Terms may be updated. Updated Terms will be available on this page and the Chrome Web Store listing.
 
 Contact: to@codeguyakash.in | https://codeguyakash.in
-Last updated: June 2026
 
 ---
 
@@ -145,7 +143,6 @@ ensuring full transparency.
 - Data is cleared when you close, reset, or uninstall the extension.
 
 Contact: to@codeguyakash.in | https://codeguyakash.in
-Last updated: June 2026
 
 ---
 
@@ -179,7 +176,6 @@ This policy may be updated to align with new payment regulations.
 The latest version will always be available on this site and the Chrome Web Store.
 
 Contact: to@codeguyakash.in | https://codeguyakash.in
-Last updated: June 2026
 
 ---
 
@@ -201,7 +197,6 @@ In rare cases where installation fails due to technical issues, users can
 contact the support team for assistance.
 
 Contact: to@codeguyakash.in | https://codeguyakash.in
-Last updated: June 2026
 
 ---
 
@@ -248,7 +243,6 @@ with particular reference to the Secure Pass extension.
 https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi
 
 Contact: to@codeguyakash.in | https://codeguyakash.in
-Last updated: June 2026
 
 ---
 
