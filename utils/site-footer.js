@@ -20,7 +20,10 @@ class SiteFooter extends HTMLElement {
             </div>
             <div class="footer-social-row">
               <a href="https://github.com/codeguyakash" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-              <a href="https://linkedin.com/in/codeguyakash" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/codeguyakash" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/codeguyakash/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="mailto:to@codeguyakash.in" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://codeguyakash.in" target="_blank" rel="noopener" aria-label="Portfolio"><i class="fa-solid fa-globe"></i></a>
             </div>
           </div>
           
