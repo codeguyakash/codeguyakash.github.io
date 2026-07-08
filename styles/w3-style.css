@@ -48,6 +48,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+top-banner {
+  display: contents;
+}
+
 .site-banner {
   background-color: var(--color-text);
   color: #fff;
@@ -225,7 +229,7 @@ body {
   flex: 1;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 3rem 1.5rem;
+  padding: 1rem 1.5rem 3rem 1.5rem;
   width: 100%;
 }
 
