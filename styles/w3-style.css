@@ -371,8 +371,12 @@ hr {
 }
 
 @keyframes spin-circle {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .profile-avatar {
@@ -621,10 +625,8 @@ site-footer {
   gap: 1.2rem;
   font-size: 1.3rem;
   position: absolute;
-  right: 1.5rem;
-  bottom: 4rem;
-  transform-origin: bottom right;
-  transform: rotate(-90deg) translateY(-100%);
+  left: 1.5rem;
+  bottom: 1.5rem;
 }
 
 .footer-bottom {
