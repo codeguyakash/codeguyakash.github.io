@@ -714,6 +714,10 @@ site-footer {
 
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 768px) {
+  :root {
+    --max-width: 95%;
+  }
+
   .profile-card {
     flex-direction: column;
     text-align: center;
