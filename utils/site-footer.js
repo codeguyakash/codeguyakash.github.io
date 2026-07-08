@@ -49,15 +49,16 @@ class SiteFooter extends HTMLElement {
     const rect = this.getBoundingClientRect();
     
     // Only apply parallax when footer is in the viewport
-    if (rect.top < window.innerHeight && rect.bottom > 0) {
-      // Calculate how far into the footer we have scrolled
-      const scrolledIntoView = window.innerHeight - rect.top;
+    if (rect.top < window.innerHeight) {
+      // Calculate how far the bottom of the footer is from the bottom of the screen.
+      // When this is 0, the user has scrolled to the absolute bottom of the page.
+      const distanceToBottom = Math.max(0, rect.bottom - window.innerHeight);
       
-      // Move the text down slightly as we scroll down to create parallax
-      // 0.2 means it moves 20% of the scroll speed
-      const offset = scrolledIntoView * 0.2;
+      // Push the text DOWN when it first enters the screen, and have it gracefully rise up
+      // to its final position as the user reaches the bottom.
+      const yOffset = distanceToBottom * 0.6; // Strong parallax effect
       
-      this.branding.style.transform = `translateY(${offset}px)`;
+      this.branding.style.transform = `translateY(${yOffset}px)`;
     }
   }
 }
