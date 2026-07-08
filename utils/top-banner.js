@@ -175,9 +175,14 @@ customElements.define('top-banner', TopBanner);
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
   const navInner = document.querySelector('.site-nav-inner');
+  const siteNav = document.querySelector('.site-nav');
+  
   if (toggle && navInner) {
     toggle.addEventListener('click', () => {
       const isOpen = navInner.classList.toggle('open');
+      if (siteNav) siteNav.classList.toggle('menu-open', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : ''; // Prevent scroll
+      
       toggle.setAttribute('aria-expanded', isOpen);
       const icon = toggle.querySelector('i');
       if (icon) {
