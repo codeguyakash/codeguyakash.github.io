@@ -759,15 +759,8 @@ site-footer {
   }
 
   .site-nav.menu-open {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 5rem);
     background: var(--color-bg);
-    z-index: 9999;
     overflow-y: auto;
   }
 
