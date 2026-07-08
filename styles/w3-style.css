@@ -73,8 +73,10 @@ body {
 }
 
 .banner-brand {
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /* ── Header ───────────────────────────────────────────────── */
@@ -137,7 +139,7 @@ body {
 .site-nav-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   display: flex;
   gap: 0;
   overflow-x: auto;
