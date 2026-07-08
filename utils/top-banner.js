@@ -170,3 +170,25 @@ class TopBanner extends HTMLElement {
 }
 
 customElements.define('top-banner', TopBanner);
+
+// Hamburger Nav Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const navInner = document.querySelector('.site-nav-inner');
+  if (toggle && navInner) {
+    toggle.addEventListener('click', () => {
+      const isOpen = navInner.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      const icon = toggle.querySelector('i');
+      if (icon) {
+        if (isOpen) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-xmark');
+        } else {
+          icon.classList.remove('fa-xmark');
+          icon.classList.add('fa-bars');
+        }
+      }
+    });
+  }
+});

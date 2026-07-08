@@ -188,6 +188,26 @@ top-banner {
   -webkit-backdrop-filter: blur(12px);
 }
 
+.nav-toggle-wrapper {
+  display: none;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.nav-brand {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-text);
+}
+
 .site-nav-inner {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -716,6 +736,36 @@ site-footer {
 @media (max-width: 768px) {
   :root {
     --max-width: 95%;
+  }
+
+  .nav-toggle-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .site-nav-inner {
+    display: none;
+    flex-direction: column;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+
+  .site-nav-inner.open {
+    display: flex;
+  }
+
+  .site-nav a {
+    padding: 0.8rem 0.5rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .site-nav a::after {
+    display: none;
   }
 
   .profile-card {
