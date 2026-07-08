@@ -48,7 +48,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ── Top Banner (Subtle & Elegant) ────────────────────────── */
 .site-banner {
   background-color: var(--color-text);
   color: #fff;
@@ -58,6 +57,9 @@ body {
   letter-spacing: 0.05em;
   flex-shrink: 0;
   font-family: var(--font-sans);
+  position: sticky;
+  top: 0;
+  z-index: 51;
 }
 
 .site-banner-inner {
@@ -125,7 +127,7 @@ body {
 /* ── Nav ──────────────────────────────────────────────────── */
 .site-nav {
   position: sticky;
-  top: 0;
+  top: 2.5rem;
   z-index: 50;
   background: transparent;
   backdrop-filter: blur(12px);
