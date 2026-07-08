@@ -343,13 +343,45 @@ hr {
   border: none;
 }
 
+.avatar-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.avatar-text-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: spin-circle 15s linear infinite;
+}
+
+.avatar-text-circle text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  fill: #f97316; /* vibrant orange matching screenshot */
+}
+
+@keyframes spin-circle {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .profile-avatar {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
-  flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
   border: none;
 }
 

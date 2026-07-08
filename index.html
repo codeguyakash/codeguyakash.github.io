@@ -61,7 +61,7 @@
       name="google-site-verification"
       content="1C6-SD02qGxG6xaEU7yoPjmUkz_9LtmdcfCzqKXHa4c"
     />
-    <link rel="stylesheet" href="/styles/w3-style.css?v=1.2" />
+    <link rel="stylesheet" href="/styles/w3-style.css?v=1.4" />
     <link rel="shortcut icon" href="/utils/favicon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -241,11 +241,21 @@
       <main class="main-content" id="main-content">
         <!-- Profile Card -->
         <div class="profile-card" id="profile-card">
-          <img
-            src="https://avatars.githubusercontent.com/u/80571893"
-            alt="Akash (codeguyakash)"
-            class="profile-avatar"
-          />
+          <div class="avatar-wrapper">
+            <svg class="avatar-text-circle" viewBox="0 0 200 200">
+              <path id="circlePath" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="transparent" />
+              <text>
+                <textPath href="#circlePath" startOffset="0%" fill="currentColor" textLength="471" lengthAdjust="spacing">
+                  CODEGUYAKASH • CODEGUYAKASH • CODEGUYAKASH • 
+                </textPath>
+              </text>
+            </svg>
+            <img
+              src="https://avatars.githubusercontent.com/u/80571893"
+              alt="Akash (codeguyakash)"
+              class="profile-avatar"
+            />
+          </div>
           <div class="profile-info">
             <h1>
               Akash
