@@ -620,15 +620,22 @@ site-footer {
   transform: translateY(-2px);
 }
 
+.footer-left-sidebar {
+  position: absolute;
+  left: 4.5rem;
+  bottom: 4rem;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
 .footer-social-row {
   display: flex;
   gap: 1.2rem;
   font-size: 1.3rem;
-  position: absolute;
-  left: 3.5rem;
-  bottom: 4rem;
-  transform: rotate(-90deg);
-  transform-origin: bottom left;
 }
 
 .footer-bottom {
@@ -649,11 +656,6 @@ site-footer {
 }
 
 .footer-copyright {
-  position: absolute;
-  left: 1.5rem;
-  bottom: 4rem;
-  transform: rotate(-90deg);
-  transform-origin: bottom left;
   white-space: nowrap;
 }
 
