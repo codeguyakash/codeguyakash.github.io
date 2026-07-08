@@ -605,9 +605,9 @@ site-footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 4rem; /* Increased from 3rem */
   font-weight: 900;
-  color: #f97316;
+  color: #1a1a1a; /* Changed to match branding text */
   font-family: var(--font-sans);
 }
 
