@@ -54,30 +54,50 @@ body {
   padding: 0;
   height: 2.5rem;
   font-size: 0.85rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   flex-shrink: 0;
   font-family: var(--font-sans);
   position: sticky;
   top: 0;
   z-index: 51;
-}
-
-.site-banner-inner {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  height: 100%;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 1rem;
 }
 
-.banner-brand {
-  font-weight: 300;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+.marquee-container {
+  display: flex;
+  width: fit-content;
+  animation: scroll-marquee 40s linear infinite;
 }
+
+.marquee-container:hover {
+  animation-play-state: paused;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding-right: 1.5rem;
+  white-space: nowrap;
+}
+
+.marquee-content span {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.marquee-content .dot {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+@keyframes scroll-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 
 /* ── Header ───────────────────────────────────────────────── */
 .site-header {
