@@ -591,10 +591,10 @@ site-footer {
 
 .footer-links-row {
   display: flex;
-  gap: 2rem;
+  gap: 1.2rem;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -618,8 +618,13 @@ site-footer {
 
 .footer-social-row {
   display: flex;
-  gap: 2rem;
-  font-size: 1.8rem;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 4rem;
+  transform-origin: bottom right;
+  transform: rotate(-90deg) translateY(-100%);
 }
 
 .footer-bottom {
