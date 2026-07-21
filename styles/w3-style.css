@@ -545,6 +545,66 @@ hr {
   color: #5c4a00;
 }
 
+.video-container {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  overflow: hidden;
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mute-btn {
+  position: fixed;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.22),
+    0 1px 4px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.7);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+  will-change: left, top;
+}
+
+.mute-btn.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.mute-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.28);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.mute-btn:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
 /* ── Social Links ─────────────────────────────────────────── */
 .social-links {
   display: flex;
@@ -767,7 +827,7 @@ site-footer {
   .site-nav a {
     padding: 0.8rem 0.5rem;
     font-size: 1.1rem;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .site-nav a::after {

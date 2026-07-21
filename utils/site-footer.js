@@ -7,6 +7,7 @@ class SiteFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="site-footer">
+
         <div class="site-footer-inner">
           <div class="footer-top">
             <div class="footer-circle-wrapper">
@@ -50,33 +51,33 @@ class SiteFooter extends HTMLElement {
       </footer>
     `;
 
-    this.branding = this.querySelector('.footer-branding');
-    window.addEventListener('scroll', this.handleScroll);
+    this.branding = this.querySelector(".footer-branding");
+    window.addEventListener("scroll", this.handleScroll);
     // Initial call to set position
     this.handleScroll();
   }
 
   disconnectedCallback() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
   handleScroll() {
     if (!this.branding) return;
     const rect = this.getBoundingClientRect();
-    
+
     // Only apply parallax when footer is in the viewport
     if (rect.top < window.innerHeight) {
       // Calculate how far the bottom of the footer is from the bottom of the screen.
       // When this is 0, the user has scrolled to the absolute bottom of the page.
       const distanceToBottom = Math.max(0, rect.bottom - window.innerHeight);
-      
+
       // Push the text DOWN when it first enters the screen, and have it gracefully rise up
       // to its final position as the user reaches the bottom.
       const yOffset = distanceToBottom * 0.6; // Strong parallax effect
-      
+
       this.branding.style.transform = `translateY(${yOffset}px)`;
     }
   }
 }
 
-customElements.define('site-footer', SiteFooter);
+customElements.define("site-footer", SiteFooter);

@@ -71,6 +71,7 @@
     />
     <!-- Service Worker for offline routing and custom 404 handler -->
     <script src="/utils/sw-register.js" defer></script>
+    <script src="script.js"></script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -520,10 +521,85 @@
             </a>
           </div>
         </section>
-
       </main>
     </div>
 
+    <div class="video-container">
+      <video autoplay muted loop playsinline preload="auto">
+        <source
+          src="https://assets.codeguyakash.in/AQMt1RjCo9wbENt99kWvMjaF-M9EsmvQuapnfvEPhg1LUX730XwImRiL0-yjSlHxUKMQJteP_lqUUBLe_3Z2wrEdSgoz2X9CFqxTVCU.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <button id="muteBtn" class="mute-btn">
+        <img src="/utils/mute.svg" alt="mute" width="25" height="25" />
+      </button>
+    </div>
+
     <site-footer></site-footer>
+
+    <script>
+      (function () {
+        const videoContainer = document.querySelector(".video-container");
+        const video = videoContainer.querySelector("video");
+        const muteBtn = document.getElementById("muteBtn");
+
+        let rafId = null;
+        let targetX = 0;
+        let targetY = 0;
+        let currentX = 0;
+        let currentY = 0;
+        let isVisible = false;
+
+        // Smooth lerp animation
+        function lerp(a, b, t) {
+          return a + (b - a) * t;
+        }
+
+        function animateBtn() {
+          currentX = lerp(currentX, targetX, 0.18);
+          currentY = lerp(currentY, targetY, 0.18);
+          muteBtn.style.left = currentX + "px";
+          muteBtn.style.top = currentY + "px";
+
+          if (isVisible) {
+            rafId = requestAnimationFrame(animateBtn);
+          }
+        }
+
+        videoContainer.addEventListener("mousemove", function (e) {
+          targetX = e.clientX;
+          targetY = e.clientY;
+
+          if (!isVisible) {
+            // Snap to position on first show (no lag on appear)
+            currentX = targetX;
+            currentY = targetY;
+            muteBtn.style.left = currentX + "px";
+            muteBtn.style.top = currentY + "px";
+            isVisible = true;
+            muteBtn.classList.add("visible");
+            rafId = requestAnimationFrame(animateBtn);
+          }
+        });
+
+        videoContainer.addEventListener("mouseleave", function () {
+          isVisible = false;
+          muteBtn.classList.remove("visible");
+          if (rafId) {
+            cancelAnimationFrame(rafId);
+            rafId = null;
+          }
+        });
+
+        muteBtn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          video.muted = !video.muted;
+          const img = muteBtn.querySelector("img");
+          img.src = video.muted ? "/utils/mute.svg" : "/utils/unmute.svg";
+          img.alt = video.muted ? "muted" : "unmuted";
+        });
+      })();
+    </script>
   </body>
 </html>
