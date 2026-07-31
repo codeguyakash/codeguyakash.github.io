@@ -7,16 +7,20 @@
     "price": "FREE",
     "logo": "/assets/logos/assist.png",
     "storeUrl": "https://play.google.com/store/apps/details?id=app.codeguyakash.assist",
-    "privacyPolicyUrl": "",
+    "privacyPolicyUrl": "/privacy.html",
     "author": "CODEGUYAKASH",
     "authorWebsite": "https://codeguyakash.in",
     "category": "Default SMS Handler",
     "type": "app",
     "features": [
-      "Minimal, clean dark UI for Chrome",
-      "Easy one-click install",
-      "No data collected — runs fully locally",
-      "Compatible with all Chrome versions"
+      "Default SMS Manager: Seamlessly view, manage, and read your SMS conversations and threads in one clean interface.",
+      "Automated Missed Call SMS Reply: Automatically sends your selected SMS reply template whenever an incoming call is missed.",
+      "Multi-SIM Support: Select system default SIM or choose a specific SIM card for sending automated replies on dual-SIM devices.",
+      "Customizable Templates: Choose from pre-configured reply templates or create your own custom message responses.",
+      "Bot Name Prefix Option: Optionally add a customizable assistant name prefix (e.g., [ASSIST_BOT]) to outgoing auto-replies.",
+      "Smart Safeguards: Set a daily SMS limit cap and enjoy automatic duplicate-call protection (prevents sending multiple SMS to the same caller within 10 minutes).",
+      "Recent Activity Log: Track missed call events, answered calls, auto-SMS dispatch timestamps, and delivery statuses.",
+      "On-Device Privacy: All processing happens locally on your device. Your call logs, contact details, and SMS data remain strictly private and are never uploaded to any external server."
     ]
   },
   {
@@ -27,16 +31,24 @@
     "price": "FREE",
     "logo": "assets/logos/dev-launcher.png",
     "storeUrl": "https://play.google.com/store/apps/details?id=app.codeguyakash.launcher",
-    "privacyPolicyUrl": "http://codeguyakash.github.io/privacy.html",
+    "privacyPolicyUrl": "/privacy.html",
     "author": "CODEGUYAKASH",
     "authorWebsite": "https://codeguyakash.in",
     "category": "Productivity",
     "type": "app",
     "features": [
-      "One-click strong password generation",
-      "Right-click autofill into any input",
-      "Remembers last generated password",
-      "Zero data sent — fully local, fully private"
+      "Minimal home screen — show only your favorite apps.",
+      "Full app drawer with fast alphabetical scroll.",
+      "Grid or list layout for the app drawer.",
+      "Monochrome app icons (black/light theme · white/dark theme).",
+      "Real-time clock widget with battery indicator.",
+      "Dynamic dark/light/system theme support.",
+      "Haptic feedback toggle for battery saving.",
+      "Quick shortcuts to Battery, Device Settings, and About Phone.",
+      "Favorite apps — long-press any app to pin it.",
+      "App info and uninstall from long-press context menu.",
+      "Zero permissions — no internet, no location, no contacts.",
+      "R8-optimized for minimal battery and RAM usage."
     ]
   }
 ]

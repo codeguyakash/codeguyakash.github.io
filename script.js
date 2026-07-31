@@ -28,10 +28,12 @@ function renderCard(item) {
   const features = item.features;
   const type = item.type;
 
-  const card = `<div class="product-card" id="product-extensions-${id}">
+  const isApp = type === "app";
+
+  const card = `<div class="product-card" id="product-${isApp ? "app" : "extensions"}-${id}">
 
           ${
-            type === "app"
+            isApp
               ? `<div class="product-card-header">
              <span class="product-badge product-badge-android">
                  <i class="fa-brands fa-android"></i> Android App
@@ -58,14 +60,14 @@ function renderCard(item) {
                 <ul>
                    ${features.map((item) => `<li>${item}</li>`).join("")}
                 </ul>
-                <a href="${storeUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme"><i class="fa-brands fa-chrome"></i> Add to Browser</a>
+                <a href="${storeUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme"><i class="fa-brands ${isApp ? "fa-google-play" : "fa-chrome"}"></i> ${isApp ? "Get on Play Store" : "Add to Browser"}</a>
                  <a href="${privacyPolicyUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme" style="background-color: #232323;" ></i>Privacy Policy</a>
               </div>`;
 
   let extSec = document.getElementById("extensions");
   let appSec = document.getElementById("apps");
 
-  if (type === "app") {
+  if (isApp) {
     appSec.innerHTML += card;
   } else {
     extSec.innerHTML += card;
