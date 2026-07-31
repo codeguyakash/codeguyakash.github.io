@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "My Dark Theme",
+    "tagline": "A clean, minimal, and eye-friendly dark theme for Chrome",
+    "description": "Bring elegance and comfort to your browsing experience with My Dark Theme — a clean, minimal, and eye-friendly dark theme for Chrome users. Perfect for those who work late or prefer dark interfaces. Designed with simplicity in mind: install and it just works.",
+    "price": "FREE",
+    "logo": "/assets/logos/my-dark-theme.png",
+    "storeUrl": "https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh",
+    "privacyPolicyUrl": "",
+    "author": "CODEGUYAKASH",
+    "authorWebsite": "https://codeguyakash.in",
+    "category": "Theme",
+    "features": [
+      "Minimal, clean dark UI for Chrome.",
+      "Easy one-click install.",
+      "No data collected — runs fully locally.",
+      "Compatible with all Chrome versions."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Secure Pass",
+    "tagline": "Generate strong, secure passwords or memorable passphrases in one click",
+    "description": "Generate strong, secure passwords or memorable passphrases in one click. Secure Pass features right-click autofill into any password field and remembers your last generated secret. The simplest way to create robust credentials without leaving your browser.",
+    "price": "FREE",
+    "logo": "assets/logos/secure-pass.png",
+    "storeUrl": "https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi",
+    "privacyPolicyUrl": "http://codeguyakash.github.io/privacy.html",
+    "author": "CODEGUYAKASH",
+    "authorWebsite": "https://codeguyakash.in",
+    "category": "Productivity",
+    "features": [
+      "One-click strong password generation.",
+      "Right-click autofill into any input.",
+      "Remembers last generated password.",
+      "Zero data sent — fully local, fully private."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Web Shield",
+    "tagline": "Automatically block cookie banners, login walls, paywalls, newsletters, and web distractions",
+    "description": "Web Shield — Automatically block annoying cookie consent banners, mandatory login walls, paywalls, newsletter popups, and web distractions for a clean browsing experience! Tired of closing 5 different popups every time you open a website? Web Shield keeps your browsing clean, fast, and distraction-free by automatically auto-hiding annoying overlays the instant they appear.",
+    "price": "FREE",
+    "logo": "assets/logos/web-shield.png",
+    "storeUrl": "https://chromewebstore.google.com/detail/web-shield/iedolnjafpfnklfkcnjbfbopkcddbjbk",
+    "privacyPolicyUrl": "https://shield.codeguyakash.in",
+    "author": "CODEGUYAKASH",
+    "authorWebsite": "https://codeguyakash.in",
+    "category": "Privacy & Security",
+    "features": [
+      "Cookie Banners & GDPR Popups.",
+      "Mandatory Login & Sign-in Walls.",
+      "Subscribe & Paywalls.",
+      "Newsletter & Email Signups.",
+      "Right-Click \"Hide Element\" Custom Blocker.",
+      "Smart Scroll Restoration.",
+      "100% Private & Local Execution."
+    ]
+  }
+]
