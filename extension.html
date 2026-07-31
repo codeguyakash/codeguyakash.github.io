@@ -119,6 +119,7 @@
     <script src="/utils/sw-register.js" defer></script>
     <script src="/utils/top-banner.js?v=4" defer></script>
     <script src="/utils/site-footer.js?v=10" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <top-banner></top-banner>
@@ -144,7 +145,11 @@
     <nav class="site-nav" aria-label="Main navigation">
       <div class="nav-toggle-wrapper">
         <span class="nav-brand">Menu</span>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -175,94 +180,9 @@
 
         <hr />
 
-        <section id="extensions-list">
-          <div class="product-card" id="ext-dark-theme">
-            <div class="product-card-header">
-              <span class="product-badge">Free</span>
-            </div>
-            <h2>
-              <a
-                href="https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh"
-                target="_blank"
-                rel="noopener"
-                >My Dark Theme</a
-              >
-            </h2>
+        <section id="extensions"></section>
 
-            <p>
-              Bring elegance and comfort to your browsing experience with
-              <strong>My Dark Theme</strong> — a clean, minimal, and
-              eye-friendly dark theme for Chrome users. Perfect for those who
-              work late or prefer dark interfaces. Designed with simplicity in
-              mind: install and it just works.
-            </p>
-            <ul>
-              <li>Minimal, clean dark UI for Chrome</li>
-              <li>Easy one-click install</li>
-              <li>No data collected — runs fully locally</li>
-              <li>Compatible with all Chrome versions</li>
-            </ul>
-            <div class="product-actions">
-              <a
-                href="https://chromewebstore.google.com/detail/my-dark-theme/chejinoklfdlokcdipnnccafebjekfdh"
-                class="btn"
-                target="_blank"
-                rel="noopener"
-                id="btn-dark-theme"
-              >
-                <i class="fa-brands fa-chrome"></i> Add to Chrome
-              </a>
-            </div>
-          </div>
-
-          <div class="product-card" id="ext-secure-pass">
-            <div class="product-card-header">
-              <span class="product-badge">Free</span>
-            </div>
-            <h2>
-              <a
-                href="https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi"
-                target="_blank"
-                rel="noopener"
-                >Secure Pass</a
-              >
-            </h2>
-
-            <p>
-              Generate strong, secure passwords or memorable passphrases in one
-              click. <strong>Secure Pass</strong> features right-click autofill
-              into any password field and remembers your last generated secret.
-              The simplest way to create robust credentials without leaving your
-              browser.
-            </p>
-            <ul>
-              <li>One-click strong password generation</li>
-              <li>Right-click autofill into any input</li>
-              <li>Remembers last generated password</li>
-              <li>Zero data sent — fully local, fully private</li>
-            </ul>
-            <div class="product-actions">
-              <a
-                href="https://chromewebstore.google.com/detail/secure-pass/ngfjlnlliapgjpcldjgblbmakhijgnhi"
-                class="btn"
-                target="_blank"
-                rel="noopener"
-                id="btn-secure-pass"
-              >
-                <i class="fa-brands fa-chrome"></i> Add to Chrome
-              </a>
-              <a
-                href="/sprivacy.html"
-                class="btn btn-outline"
-                id="btn-secure-pass-privacy"
-                >Privacy Policy</a
-              >
-            </div>
-          </div>
-        </section>
-
-        <p class="last-updated" id="last-updated">
-        </p>
+        <p class="last-updated" id="last-updated"></p>
       </main>
     </div>
 

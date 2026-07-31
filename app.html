@@ -123,9 +123,10 @@
     <script src="/utils/sw-register.js" defer></script>
     <script src="/utils/top-banner.js?v=4" defer></script>
     <script src="/utils/site-footer.js?v=10" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
-        <top-banner></top-banner>
+    <top-banner></top-banner>
 
     <!-- Header -->
     <header class="site-header">
@@ -148,7 +149,11 @@
     <nav class="site-nav" aria-label="Main navigation">
       <div class="nav-toggle-wrapper">
         <span class="nav-brand">Menu</span>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -179,155 +184,9 @@
 
         <hr />
 
-        <section id="apps-list">
-          <div class="product-card" id="app-assist">
-            <div class="product-card-header">
-              <span class="product-badge product-badge-android"
-                ><i class="fa-brands fa-android"></i> Android</span
-              >
-            </div>
+        <section id="apps"></section>
 
-            <h2>
-              <a
-                href="https://play.google.com/store/apps/details?id=app.codeguyakash.assist"
-                target="_blank"
-                rel="noopener"
-                >AutoAssist</a
-              >
-            </h2>
-            <p>
-              <strong>AutoAssist</strong> is your smart missed call manager that
-              automatically replies to calls via SMS when you are busy, driving,
-              riding, or when your phone is in your pocket. Designed for safety
-              and productivity, it evaluates system sensors to detect if you are
-              traveling, automatically choosing the right template to keep
-              callers informed while keeping your eyes on the road.
-            </p>
-            <ul>
-              <li>
-                <strong>Auto-SMS Auto-Reply:</strong> Automatically sends
-                templated SMS responses to missed calls.
-              </li>
-              <li>
-                <strong>Pocket Mode Detection:</strong> Uses proximity sensors
-                to detect if the phone is face down or in a pocket to trigger
-                silence or normal rules.
-              </li>
-              <li>
-                <strong>Travel/Motion Mode:</strong> Utilizes accelerometer
-                sensor duty-cycling to identify when you are driving or riding,
-                auto-replying with safety-oriented text templates.
-              </li>
-              <li>
-                <strong>Custom Templates:</strong> Create, edit, and delete
-                customized auto-reply templates with bracketed tags (e.g.
-                customized bot name).
-              </li>
-              <li>
-                <strong>Daily Limits & Duplicate Prevention:</strong> Safeguards
-                against carrier costs by enforcing daily SMS limit caps and
-                preventing duplicate replies to the same contact in a short time
-                frame.
-              </li>
-              <li>
-                <strong>Status Dashboard:</strong> Track sent auto-replies,
-                missed calls history, and carrier status logs right on the
-                activity feed.
-              </li>
-              <li>
-                <strong>Privacy First:</strong> Processes all logs locally in a
-                secure sandbox database. Your call logs and call data never
-                leave your device.
-              </li>
-            </ul>
-            <div class="product-actions">
-              <a
-                href="https://play.google.com/store/apps/details?id=app.codeguyakash.assist"
-                class="btn"
-                target="_blank"
-                rel="noopener"
-                id="btn-assist"
-              >
-                <i class="fa-brands fa-google-play"></i> Get on Play Store
-              </a>
-            </div>
-          </div>
-
-          <div class="product-card" id="app-launcher">
-            <div class="product-card-header">
-              <span class="product-badge product-badge-android"
-                ><i class="fa-brands fa-android"></i> Android</span
-              >
-            </div>
-
-            <h2>
-              <a
-                href="https://play.google.com/store/apps/details?id=app.codeguyakash.launcher"
-                target="_blank"
-                rel="noopener"
-                >Dev Launcher</a
-              >
-            </h2>
-            <p>
-              <strong>Dev Launcher</strong> is a clean, distraction-free Android
-              launcher built for developers, productivity users, and anyone who
-              wants a pure, minimal home screen experience.
-            </p>
-            <ul>
-              <li>
-                <strong>Minimal Home Screen:</strong> Show only your favorite
-                apps to reduce distractions.
-              </li>
-              <li>
-                <strong>Full App Drawer:</strong> Fast alphabetical scroll with
-                grid or list layout.
-              </li>
-              <li>
-                <strong>Monochrome App Icons:</strong> Black/light theme and
-                white/dark theme support.
-              </li>
-              <li>
-                <strong>System Widget:</strong> Real-time clock widget with
-                battery indicator.
-              </li>
-              <li>
-                <strong>Dynamic Themes:</strong> Full dark, light, and system
-                theme support.
-              </li>
-              <li>
-                <strong>Optimized Performance:</strong> Haptic feedback toggle,
-                R8-optimized for minimal battery and RAM usage.
-              </li>
-              <li>
-                <strong>Shortcuts & Actions:</strong> Quick shortcuts to
-                Battery, Device Settings, and About Phone. Long-press any app to
-                pin it, view info, or uninstall.
-              </li>
-              <li>
-                <strong>Privacy First:</strong> Zero permissions (no internet,
-                no location, no contacts) and no user data collection.
-              </li>
-              <li>
-                <strong>Open & Lightweight:</strong> No bloat, no ads, no
-                background services. Pure Android, Kotlin, and Compose.
-              </li>
-            </ul>
-            <div class="product-actions">
-              <a
-                href="https://play.google.com/store/apps/details?id=app.codeguyakash.launcher"
-                class="btn"
-                target="_blank"
-                rel="noopener"
-                id="btn-launcher"
-              >
-                <i class="fa-brands fa-google-play"></i> Get on Play Store
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <p class="last-updated" id="last-updated">
-        </p>
+        <p class="last-updated" id="last-updated"></p>
       </main>
     </div>
 

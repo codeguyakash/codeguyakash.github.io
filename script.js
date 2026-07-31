@@ -1,15 +1,19 @@
 async function getExtensions() {
-  console.log("getExtensions");
   const res = await fetch("./extensions.json");
   const data = await res.json();
-  data.map((item) => renderCards(item));
+  data.map((item) => renderCard(item));
+}
+async function getApps() {
+  const res = await fetch("./apps.json");
+  const data = await res.json();
+  data.map((item) => renderCard(item));
 }
 (() => {
   getExtensions();
+  getApps();
 })();
 
-function renderCards(item) {
-  console.log("renderCards");
+function renderCard(item) {
   const id = item.id;
   const name = item.name;
   const tagline = item.tagline;
@@ -22,19 +26,27 @@ function renderCards(item) {
   const authorWebsite = item.authorWebsite;
   const category = item.category;
   const features = item.features;
+  const type = item.type;
 
-  const ele = `<div class="product-card" id="product-${id}">
-                <div class="product-card-header">
+  const card = `<div class="product-card" id="product-extensions-${id}">
+
+          ${
+            type === "app"
+              ? `<div class="product-card-header">
+             <span class="product-badge product-badge-android">
+                 <i class="fa-brands fa-android"></i> Android App
+               </span>
+             </div>`
+              : `<div class="product-card-header">
                   <span class="product-badge">
                   <i class="fa-brands fa-chrome"></i> Extension</span>
-                </div>
-              
-               
+                </div>`
+          }
                 <h3 style="display:flex; align-items: center;">
                  <img src="${logo}" alt="${name} Logo" class="ext-logos" width="24px" height="24px" style="margin-right: 10px;" />
                   <a href="${storeUrl}" target="_blank" rel="noopener">${name}</a>
                   <span style="font-size: 10px; margin-left:10px;">${category}</span>
-                        <span style="font-size: 10px; margin-left:10px;">${price}</span>
+                  <span style="font-size: 10px; margin-left:10px;">${price}</span>
                 </h3>
                 <p>${tagline}</p>
                 <div class="product-publisher">
@@ -46,9 +58,16 @@ function renderCards(item) {
                 <ul>
                    ${features.map((item) => `<li>${item}</li>`).join("")}
                 </ul>
-                <a href="${storeUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme"><i class="fa-brands fa-chrome"></i>Add to Browser</a>
+                <a href="${storeUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme"><i class="fa-brands fa-chrome"></i> Add to Browser</a>
                  <a href="${privacyPolicyUrl}" class="btn" target="_blank" rel="noopener" id="btn-dark-theme" style="background-color: #232323;" ></i>Privacy Policy</a>
               </div>`;
 
-  document.getElementById("extensions").innerHTML += ele;
+  let extSec = document.getElementById("extensions");
+  let appSec = document.getElementById("apps");
+
+  if (type === "app") {
+    appSec.innerHTML += card;
+  } else {
+    extSec.innerHTML += card;
+  }
 }

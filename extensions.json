@@ -11,6 +11,7 @@
     "author": "CODEGUYAKASH",
     "authorWebsite": "https://codeguyakash.in",
     "category": "Theme",
+    "type": "extension",
     "features": [
       "Minimal, clean dark UI for Chrome.",
       "Easy one-click install.",
@@ -30,6 +31,7 @@
     "author": "CODEGUYAKASH",
     "authorWebsite": "https://codeguyakash.in",
     "category": "Productivity",
+    "type": "extension",
     "features": [
       "One-click strong password generation.",
       "Right-click autofill into any input.",
@@ -49,6 +51,7 @@
     "author": "CODEGUYAKASH",
     "authorWebsite": "https://codeguyakash.in",
     "category": "Privacy & Security",
+    "type": "extension",
     "features": [
       "Cookie Banners & GDPR Popups.",
       "Mandatory Login & Sign-in Walls.",
