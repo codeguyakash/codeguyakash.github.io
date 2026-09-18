@@ -45,12 +45,38 @@ Every footer must include:
 - Links to: `https://legal.codeguyakash.in`
 - This is Akash's single universal Privacy Policy + Terms page shared across all projects — never generate a separate or custom privacy/terms page unless explicitly asked to
 
-## 5. Footer template (reference)
+## 5. Changelog page — every project must have one
+
+Every site/app must ship a `/changelog` page (or route) that lists what's new per version, so the product's evolution stays visible over time.
+
+- Route: `/changelog` (e.g. `https://<project-domain>/changelog`)
+- Footer must link to it with text: `Changelog` (placed next to or near the version number if one is shown)
+- Format: newest version first, each entry has a version number (or date), a short title, and 2–5 bullet points of what changed — grouped as `Added` / `Fixed` / `Changed` when there's enough content to group
+- When scaffolding a new project, create the changelog page with at least a `v0.1.0 — Initial release` entry so it's never empty
+- When asked to ship a new feature/fix on an existing project, always add a new changelog entry for it — don't wait to be asked separately
+
+### Changelog entry template (reference)
+
+```markdown
+## v1.2.0 — 2026-09-18
+
+### Added
+- Short description of new feature
+
+### Fixed
+- Short description of bug fix
+
+### Changed
+- Short description of a change to existing behavior
+```
+
+## 6. Footer template (reference)
 
 ```html
 <footer>
   <p>Developer: <a href="https://codeguyakash.in" target="_blank" rel="noopener">CODEGUYAKASH</a></p>
   <p><a href="mailto:PROJECT_SLUG@codeguyakash.in">PROJECT_SLUG@codeguyakash.in</a></p>
+  <a href="/changelog">Changelog</a>
   <a href="https://legal.codeguyakash.in" target="_blank" rel="noopener">Learn More Privacy Term</a>
 </footer>
 ```
